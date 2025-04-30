@@ -7,11 +7,14 @@ class Persona_ECB {
         private double altura;
         private int edad;
 
+        // Esto es el String
         @Override
         public String toString() {
             return "Persona [id=" + id + ", nombre=" + nombre + ", masa=" + masa + ", altura=" + altura + ", edad="
                     + edad + "]";
         }
+
+        // Estos son los getters and setter mas el constructor
 
         public int getId() {
             return id;
